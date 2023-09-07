@@ -3,7 +3,7 @@ import subprocess
 
 def server():
     server_ip = '0.0.0.0'  # Listen on all available interfaces
-    server_port = 8080
+    server_port = 4444
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind((server_ip, server_port))
